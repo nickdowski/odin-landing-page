@@ -11,8 +11,13 @@ html, body {
 
 header {
     background-color: #1e1e2e;
-    height: 200px;
+    height: 250px;
     padding: 20px;
+}
+
+.header-content img {
+    width: 150px;
+    height: auto;
 }
 
 .navbar {
