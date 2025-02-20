@@ -11,7 +11,7 @@ html, body {
 
 header {
     background-color: #1e1e2e;
-    height: 400px;
+    height: 350px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -74,4 +74,11 @@ header {
     display: flex;
     flex-direction: column;
     gap: 17px;
+}
+
+.header-text button {
+    border-radius: 5px;
+    background-color: #5b94f2;
+    width: 100px;
+    height: auto;
 }
