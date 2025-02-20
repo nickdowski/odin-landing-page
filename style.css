@@ -21,6 +21,12 @@ header {
     margin: 0 auto;
 }
 
+.logo {
+    color: #f8f8f2;
+    font-size: 32px;
+    font-weight: bold;
+}
+
 .nav-links {
     color: #f8f8f2;
     list-style: none;
