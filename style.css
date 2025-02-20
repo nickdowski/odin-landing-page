@@ -11,6 +11,8 @@ html, body {
 
 header {
     background-color: #1e1e2e;
+    height: 200px;
+    padding: 0 40px;
 }
 
 .navbar {
@@ -32,6 +34,8 @@ header {
     list-style: none;
     display: flex;
     gap: 30px;
+    margin: 0;
+    padding: 0;
 }
 
 .footer {
