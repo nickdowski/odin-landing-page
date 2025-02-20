@@ -30,6 +30,7 @@ header {
 .header-content img {
     width: 200px;
     height: auto;
+    border-radius: 10px;
 }
 
 .header-content h1,
@@ -44,7 +45,7 @@ header {
     align-items: center;
     max-width: 900px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .logo {
