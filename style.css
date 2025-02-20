@@ -86,13 +86,25 @@ header {
 
 .game-images {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 50px;
+    padding: 20px;
+}
+
+.image-box {
+    text-align: center;
 }
 
 .game-images img {
     width: 100px;
     height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.game-section h1 {
+    text-align: center;
+    font-weight: bold;
 }
