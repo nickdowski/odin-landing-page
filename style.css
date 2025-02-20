@@ -25,11 +25,10 @@ header {
     align-items: center;
     max-width: 900px;
     width: 100%;
-    gap: 40px;
 }
 
 .header-content img {
-    width: 180px;
+    width: 200px;
     height: auto;
 }
 
@@ -74,4 +73,5 @@ header {
 .header-text {
     display: flex;
     flex-direction: column;
+    gap: 17px;
 }
