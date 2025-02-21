@@ -142,6 +142,11 @@ header {
     font-style: italic;
 }
 
+.quote span {
+    color: #5b94f2;
+    font-weight: 900;
+}
+
 .author {
     font-size: 18px;
     font-weight: bold;
