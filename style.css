@@ -91,6 +91,7 @@ header {
     flex-wrap: wrap;
     gap: 50px;
     padding: 20px;
+    margin-bottom: 80px;
 }
 
 .image-box {
@@ -98,7 +99,7 @@ header {
 }
 
 .game-images img {
-    width: 100px;
+    width: 120px;
     height: auto;
     object-fit: cover;
     border-radius: 10px;
@@ -114,4 +115,9 @@ header {
     max-width: 80%;
     margin: auto;
     margin-top: 10px;
+}
+
+.quote-section {
+    background-color: gray;
+    height: 250px;
 }
