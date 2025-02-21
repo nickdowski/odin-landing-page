@@ -21,7 +21,7 @@ header {
 .header-content {
     display: flex;
     margin: auto;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     max-width: 900px;
     width: 100%;
@@ -178,6 +178,7 @@ header {
 .text {
     flex: 1;
     text-align: left;
+    margin-bottom: 20px;
 
 }
 
@@ -197,4 +198,9 @@ header {
     color: #f8f8f2;
     font-size: 17px;
     padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hire-button button:hover {
+    background-color: #333;
 }
