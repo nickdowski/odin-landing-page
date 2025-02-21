@@ -5,6 +5,11 @@ html, body {
     flex-direction: column;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 .main-content {
     flex: 1;
 }
@@ -27,10 +32,23 @@ header {
     width: 100%;
 }
 
+
 .header-content img {
     width: 200px;
     height: auto;
     border-radius: 10px;
+}
+
+.header-content button {
+    color: #f8f8f2;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header-content button:hover {
+    background-color: #333;
 }
 
 .header-content h1,
@@ -108,6 +126,7 @@ header {
 .game-section h1 {
     text-align: center;
     font-weight: bold;
+    color: #1e1e2e;
 }
 
 .game-section p {
@@ -115,6 +134,9 @@ header {
     max-width: 80%;
     margin: auto;
     margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1e1e2e;
 }
 
 .quote-section {
@@ -154,11 +176,11 @@ header {
 
 .action {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     text-align: center;
-    min-height: 300px;
-    padding: 40px;
+    min-height:300px;
+    padding: 20px;
 }
 
 .action-box {
@@ -166,7 +188,7 @@ header {
     background-color: #5b94f2;
     color: #f8f8f2;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     max-width: 800px;
     width: 100%;
     justify-content: space-between;
@@ -176,15 +198,18 @@ header {
 }
 
 .text {
-    flex: 1;
     text-align: left;
-    margin-bottom: 20px;
+    flex: 1;
 
 }
 
 .text h1 {
     font-size: 24px;
     margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 16px;
 }
 
 .hire-button {
@@ -198,6 +223,7 @@ header {
     color: #f8f8f2;
     font-size: 17px;
     padding: 10px 20px;
+    font-weight: bold;
     cursor: pointer;
 }
 
