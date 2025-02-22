@@ -9,7 +9,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
 .main-content {
     flex: 1;
 }
@@ -32,11 +31,15 @@ header {
     width: 100%;
 }
 
+.header-text {
+    flex-shrink: 0;
+}
 
 .header-content img {
     width: 200px;
     height: auto;
     border-radius: 10px;
+    flex-shrink: 0;
 }
 
 .header-content button {
